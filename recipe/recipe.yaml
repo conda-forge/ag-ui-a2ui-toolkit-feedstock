@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.0.2"
+  version: "0.0.3"
 
 package:
   name: ag-ui-a2ui-toolkit
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/ag-ui-a2ui-toolkit/ag_ui_a2ui_toolkit-${{ version }}.tar.gz
-  sha256: 5908fa7a9cf474fa26d8821ac15b135bdca2c1cfddce0b7c580c6382d1f0bfd9
+  sha256: 468f25473ac00d098878da54c0069b7fa27dc63b4c1ff61315d4349a324c2fb7
 
 build:
   number: 0
