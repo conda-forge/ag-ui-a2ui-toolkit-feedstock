@@ -31,8 +31,8 @@ tests:
         - ag_ui_a2ui_toolkit
       pip_check: true
       python_version:
-      - ${{ python_min }}.*
-      - "*"
+        - ${{ python_min }}.*
+        - "*"
 
 about:
   summary: Framework-agnostic helpers for building A2UI subagent tools — op builders, prompt assembly, history walkers, and request/envelope orchestration shared across framework adapters.
